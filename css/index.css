@@ -83,6 +83,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    padding-top: 20px;
 }
 
 .middle-content {
@@ -104,7 +105,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +144,56 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-right: 50px;
+  }
+
+header nav a {
+    padding-top: 25px; 
+    text-decoration: none;
+    color: black;
+
+}
+
+.logo {
+    padding-bottom: 40px;
+    padding-top: 5px;
+}
+
+
+
